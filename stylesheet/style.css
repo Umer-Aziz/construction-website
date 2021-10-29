@@ -1,0 +1,680 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@400;500&family=Ubuntu:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+}
+/* html {
+  sport some browser
+  scroll-behavior: smooth;
+} */
+
+/* #nav-bar {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+} */
+.navbar {
+  background-color: rgb(53, 50, 50);
+  font-family: "Ubuntu", sans-serif;
+  opacity: 0.9;
+}
+.navbar-brand img {
+  width: 150px;
+  height: 65px;
+}
+.navbar-nav li {
+  padding: 0px 2px;
+}
+.navbar-nav li a {
+  color: rgb(187, 187, 187) !important;
+  text-align: center;
+  font-size: 18px;
+  outline: none;
+  font-weight: 600;
+}
+.navbar-nav li a:hover {
+  background-color: tomato;
+  border-radius: 11px;
+  color: white !important;
+}
+.fa-bars{
+  color: #fff !important;
+  font-size: 25px !important;
+
+}
+.navbar-toggler {
+  outline: none !important;
+}
+#nav-bar .dropdown-menu {
+  background-color: rgb(53, 50, 50);
+}
+
+/* crousel section */
+.carousel-inner img {
+  height: 500px;
+  visibility: inherit;
+  opacity: 0.8;
+  overflow: hidden;
+}
+.carousel-inner h3 {
+  color: tomato !important;
+  font-weight: bold;
+  font-family: "Baloo Chettan 2", cursive;
+}
+.carousel-inner p {
+  color: rgb(255, 255, 255) !important;
+  font-weight: 600;
+  font-size: 18px;
+  font-family: "Baloo Chettan 2", cursive;
+}
+.carousel-inner p:hover {
+  color: tomato !important;
+}
+
+/* SERVICES SECTION */
+
+.title {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  color: rgb(95, 93, 93);
+  font-family: "Baloo Chettan 2", cursive;
+
+  /* color: tomato; */
+}
+.title::before {
+  content: "";
+  transform: translateY(55px);
+  background: tomato;
+  height: 2px;
+  width: 170px;
+  display: block;
+  margin: auto;
+}
+.title::after {
+  content: "";
+  transform: translateY(13px);
+  background: tomato;
+  height: 6px;
+  width: 50px;
+  display: block;
+  margin: auto;
+}
+#SERVICES #services-p {
+  text-align: center;
+  padding-bottom: 20px;
+  font-weight: 600;
+  color: grey;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 20px;
+  font-family: "Baloo Chettan 2", cursive;
+}
+#SERVICES #img-re {
+  height: 185px;
+}
+#SERVICES .card:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);
+}
+
+#SERVICES .card h5 {
+  color: rgb(95, 93, 93);
+  font-family: "Baloo Chettan 2", cursive;
+}
+#SERVICES .card h5:hover {
+  color: tomato;
+}
+#SERVICES .card .btn {
+  font-weight: 500;
+}
+#SERVICES .card .btn:hover {
+  box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Services1-2-3-4-- section
+
+#service {
+  margin-bottom: 180px;
+}
+#service .service1-heading {
+  width: 100%;
+  background-color: rgb(238, 232, 232);
+  font-size: 38px;
+  padding-left: 10px;
+  padding-top: 140px;
+  padding-bottom: 40px;
+}
+#service .service1-heading::before {
+  content: "";
+  transform: translateY(70px);
+  background: tomato;
+  height: 2px;
+  width: 270px;
+  margin-left: 28px;
+  display: block;
+}
+#service .service1-heading::after {
+  content: "";
+  transform: translateY(21px);
+  background: tomato;
+  height: 6px;
+  width: 50px;
+  margin-left: 138px;
+  display: block;
+}
+#service .service {
+  top: 100px;
+}
+#service img {
+  margin-top: 150px;
+  width: 400px;
+  height: 350px;
+} */
+/* PROJECT SECTION */
+/* #project-heading {
+  text-align: center;
+  color: #fff;
+  margin-top: 40px;
+  margin-bottom: 60px;
+  font-family: "Baloo Chettan 2", cursive;
+}
+#project-heading::before {
+  content: "";
+  transform: translateY(55px);
+  background: tomato;
+  height: 2px;
+  width: 170px;
+  display: block;
+  margin: auto;
+}
+#project-heading::after {
+  content: "";
+  transform: translateY(13px);
+  background: tomato;
+  height: 6px;
+  width: 50px;
+  display: block;
+  margin: auto;
+}
+#PROJECT img {
+  width: 240px;
+  height: 200px;
+  text-overflow: hidden;
+}
+#PROJECT {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #222;
+}
+#PROJECT .wrapper {
+  display: flex;
+  
+  /* align-items: center; */
+  /* justify-content: center; */
+  /* justify-content: space-around; */
+/* } */
+/* #PROJECT .card {
+  width: 280px;
+  padding: 2rem 1rem;
+  position: relative;
+  display: flex;
+  background: #fff;
+  align-items: flex-end;
+  box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);
+  transition: 0.5s ease-in-out;
+} */
+/* #PROJECT .card:hover {
+  transform: translateY(20px);
+}
+#PROJECT .card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    to bottom,
+    rgb(240, 152, 71),
+    rgba(82, 88, 19, 0.5)
+  );
+  z-index: 2;
+  transition: 0.5s all;
+  opacity: 0;
+}
+#PROJECT .card:hover:before {
+  opacity: 1;
+}
+#PROJECT .card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+} */
+/* #PROJECT .card .info {
+  position: relative;
+  z-index: 3;
+  color: #fff;
+  opacity: 0;
+  transform: translateY(30px);
+  transition: 0.5s all;
+  font-family: "Baloo Chettan 2", cursive;
+}
+#PROJECT .card:hover .info {
+  opacity: 1;
+  transform: translateY(0px);
+}
+#PROJECT .card .info h2 {
+  margin: 0;
+  font-family: "Baloo Chettan 2", cursive; */
+/* } */ 
+/* #PROJECT .card .info p {
+  letter-spacing: 1px;
+  font-size: 14px;
+  margin-top: 8px;
+  margin-bottom: 20px;
+} */
+/* #PROJECT .card .info .btn:hover {
+  box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);
+  /* background-color: tomato; */
+  /* color: tomato; */
+/* }  */
+
+
+/* projects */
+
+#project{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding-bottom: 50px;
+  font-family: "Baloo Chettan 2", cursive;
+  /* height: 400px; */
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  background: #222;
+}
+.pro-h1{
+  color:white;
+  font-family: "Baloo Chettan 2", cursive;
+  padding-top: 10px;
+  font-size: 45px;  
+}
+#project .pro-h1:before{
+  content: "";
+  transform: translateY(65px);
+  background: tomato;
+  height: 2px;
+  width: 170px;
+  display: block;
+  margin: auto;
+}
+#project .pro-h1:after{
+  content: "";
+  transform:translateY(6px);
+  background: tomato;
+  height: 8px;
+  width: 60px;
+  display: block;
+  margin: auto;
+}
+#project .card{
+  margin-top: 30px;
+  position: relative;
+  overflow: hidden;
+  transition: 0.5s ease-in-out;
+}
+#project .card:hover{
+  transform: translateY(25px);
+}
+#project .card::before{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 220%;
+  background: linear-gradient(
+    to bottom,
+    rgb(228, 136, 99),
+    rgba(255, 166, 114, 0.5)
+  );
+  /* top: -100%; */
+  bottom: -220%;
+  /* right: -100%; */
+  /* left: -100%; */
+  z-index: 1;
+  /* transform: rotate(25deg); */
+  transform-origin: center top 0;
+  transition: .8s;
+}
+#project .card:hover::before{
+  bottom: 0%;
+}
+#project .card img{
+  width: 100%;
+  height: 280px;
+}
+#project .card-text{
+  width: 100%;
+  padding: 0px 20px;
+  position: absolute;
+  top: -100%;
+  color:#fff;
+  left: 0;
+  z-index: 2;
+  transition: 1.1s;
+}
+#project .card:hover .card-text{
+  top: 15px;
+}
+#project .card .btn{
+  font-weight: 600;
+  margin-top: 15px;
+}
+#project .card .btn:hover{
+  transform: scale(1.1);
+
+  box-shadow:6px 11px 19px -5px #000000;
+}
+
+/* project-1-2-3 section */
+#project-1 {
+  margin-bottom: 180px;
+  font-family: "Ubuntu", sans-serif;
+}
+#project-1 .project1-heading {
+  /* text-align: center; */
+  width: 100%;
+  background-color: rgb(238, 232, 232);
+  font-family: "Baloo Chettan 2", cursive;
+  font-size: 60px;
+  padding-left: 10px;
+  padding-top: 120px;
+  padding-bottom: 35px;
+}
+#project-1 .project1-heading::before {
+  content: "";
+  transform: translateY(92px);
+  background: tomato;
+  height: 2px;
+  width: 170px;
+  margin-left: 22px;
+  display: block;
+}
+#project-1 .project1-heading::after {
+  content: "";
+  transform: translateY(16px);
+  background: tomato;
+  height: 6px;
+  width: 50px;
+  margin-left: 82px;
+  display: block;
+}
+#project-1 img {
+  margin-top: 150px;
+  width: 510px;
+  height: 350px;
+  /* margin-left: 80px; */
+}
+#project-1 .project-1 {
+  top: 100px;
+}
+
+/* TESTIMONIALS section */
+#TESTIMONIALS {
+  background: tomato;
+  width: 100%;
+}
+#tes-heading {
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  color: rgb(75, 75, 75);
+  font-family: "Baloo Chettan 2", cursive;
+}
+#tes-heading::before {
+  content: "";
+  transform: translateY(55px);
+  background: white;
+  height: 2px;
+  width: 170px;
+  display: block;
+  margin: auto;
+}
+#tes-heading::after {
+  content: "";
+  transform: translateY(13px);
+  background: white;
+  height: 6px;
+  width: 50px;
+  display: block;
+  margin: auto;
+}
+.testimonials {
+  border-left: 4px solid white;
+
+  margin-bottom: 50px;
+  color: #fff;
+}
+.tes-img {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  margin: 0px 10px;
+}
+.tes-detail {
+  display: inline-block;
+  font-size: 15px;
+  font-family: "Baloo Chettan 2", cursive;
+}
+#tes-p {
+  text-align: justify;
+
+  font-family: "Baloo Chettan 2", cursive;
+}
+
+/* about-us section */
+
+#about-us {
+  background-color: rgb(238, 232, 232);
+  margin-bottom: 50px;
+  width: 100%;
+}
+#about-us .title {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 35px;
+  font-family: "Baloo Chettan 2", cursive;
+}
+.title::before {
+  content: "";
+  transform: translateY(58px);
+  background: tomato;
+  height: 2px;
+  width: 170px;
+  display: block;
+  margin: auto;
+}
+
+.title::after {
+  content: "";
+  transform: translateY(12px);
+  background: tomato;
+  height: 6px;
+  width: 50px;
+  display: block;
+  margin: auto;
+}
+#about-us h3 {
+  padding-top: 14px;
+  padding-bottom: 14px;
+  font-family: "Ubuntu", sans-serif;
+}
+#about-us h3:hover {
+  color: tomato;
+}
+#about-us ul li {
+  margin-left: 20px;
+  letter-spacing: 1px;
+  padding-top: 4px;
+  font-family: "Ubuntu", sans-serif;
+}
+#about-us #about-pic {
+  margin-top: 15px;
+  margin-bottom: 30px;
+  width: 500px;
+  height: 350px;
+}
+#about-us #about-pic:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* footer section */
+#footer {
+  color: white;
+  width: 100%;
+  opacity: 0.9;
+  background-color: rgb(53, 50, 50);
+  font-family: "Ubuntu", sans-serif;
+}
+#footer .footer-box {
+  padding: 20px;
+  /* border:2px solid white; */
+}
+#footer
+ #CONTACT {
+  color: tomato;
+  display: flex;
+  justify-content: flex-start;
+}
+#icons .fa {
+  color: tomato;
+  margin-right: 6px;
+  font-size: 20px;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  border-radius: 2px;
+  padding-top: 7px;
+}
+#footer .foter-contact{
+  padding-top: 20px;
+  /* border:2px solid white; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+/* social media icons */
+#footer #social-links {
+  /* width: 150px; */
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  /* padding-left: 50px; */
+  color: tomato;
+  height: 50px;
+  border-left: 2px solid tomato;
+  border-right: 2px solid tomato;
+}
+.social-menu {
+  /* border: 2px solid red; */
+  display: flex;
+  text-align: center;
+  justify-content: center;
+   /* margin-left: -10px; */
+  padding-top: 35px; 
+}
+#footer .social-menu ul {
+  /* margin-right: 20px; */
+  /* left: 50%; */
+  display: flex;
+  padding: 0;
+  margin: 0;
+  /* position: absolute; */
+  /* transform: translate(-50%, -50%); */
+}
+#footer .social-menu ul li {
+  list-style: none;
+  margin: 0px 15px;
+}
+#footer .social-menu ul li .fa {
+  font-size: 30px;
+  line-height: 50px;
+  transition: 0.8s;
+  color: tomato;
+}
+#footer .social-menu ul li .fa:hover {
+  color: rgb(53, 50, 50);
+}
+#footer .social-menu ul li a {
+  display: block;
+  position: relative;
+  width: 50px;
+  height: 50px;
+  /* border-radius: 50%; */
+  background-color: #fff;
+  transition: 0.4s;
+  text-align: center;
+  transition: 0.4s;
+  box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.5);
+}
+#footer .social-menu ul li a:hover {
+  transform: translateY(-12px);
+}
+
+/* newsletter section */
+
+#footer #news {
+  color: tomato;
+  padding-top: 20px;
+  
+  
+}
+#footer .footer-news{
+  /* border: 2px solid white; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* padding-top: 20px; */
+}
+.footer-news .form-control {
+  box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5) !important;
+  margin-top: 25px;
+  border: none;
+  border-radius: 2px;
+  width: 220px;
+  /* margin-left: 45px; */
+}
+.footer-news .form-control:hover {
+  box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);
+  transform: scale(1.1);
+  border: 1px solid tomato;
+}
+.footer-news .btn-light {
+  margin-top: 25px;
+  margin-bottom: 15px;
+  /* margin-left: 45px; */
+  font-size: 15px;
+  font-weight: 600;
+  outline: none;
+  border: none;
+  box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);
+}
+.footer-news .btn-light:hover {
+  background-color: tomato;
+  box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);
+  transform: scale(1.1);
+}
+#footer #bottom-link a {
+  color: tomato;
+}
